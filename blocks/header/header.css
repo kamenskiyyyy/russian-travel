@@ -1,0 +1,7 @@
+.header {
+    margin-top: 28px ;
+    max-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
