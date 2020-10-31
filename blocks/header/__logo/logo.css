@@ -1,3 +1,11 @@
+.header__logo {
+    transition: opacity .2s linear;
+}
+
+.header__logo:hover, .header__logo:focus {
+    opacity: .5;
+}
+
 @media (max-width: 320px) {
     .header__logo {
         width: 142px;

@@ -1,8 +1,10 @@
 .header__links {
-    width: 76px;
+    max-width: 76px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    list-style: none;
 }
 
 @media (max-width: 320px) {
