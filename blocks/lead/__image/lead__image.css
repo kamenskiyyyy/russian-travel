@@ -1,11 +1,17 @@
 .lead__image {
     margin-top: 63px;
     object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        margin-top: 57px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
     .lead__image {
         margin-top: 40px;
-        width: 100%;
     }
 }

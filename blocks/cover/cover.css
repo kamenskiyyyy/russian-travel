@@ -16,8 +16,16 @@
     }
 }
 
+@media (max-width: 768px) {
+    .cover {
+        margin-top: 66px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .cover {
         margin-top: 16px;
     }
 }
+
+

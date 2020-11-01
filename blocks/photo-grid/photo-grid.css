@@ -20,11 +20,14 @@
         max-width: 720px;
         padding: 0 24px;
         margin-top: 88px;
+        gap: 16px;
     }
 }
 
 @media (max-width: 320px) {
     .photo-grid {
         padding: 0 16px;
+        margin-top: 64px;
+        gap: 12px;
     }
 }
